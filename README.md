@@ -4,22 +4,22 @@ This class for the Force.com platform is a collection of methods that are useful
 
 ### What methods are there?
 
-## min
+#### min
 	Date min(Date d1, Date d2)
 	
 This will return the earlier of the two dates passed to it.
 
-## max
+#### max
 	Date max(Date d1, Date d2)
 
 This will return the later of the two dates passed to it.
 
-## dayOfWeek
+#### dayOfWeek
 	Integer dayOfWeek(Date d1)
 
 This will return an Integer representing the day of the week a particular date is.  The number is zero based at Monday regardless of the Org's locale.
 
-## weekdaysBetween
+###ß# weekdaysBetween
 	Integer weekdaysBetween(Date d1, Date d2)
 	
 This will return the number of weekdays between two dates.  This doesn't use the normal looping approach, it attempts to be more efficient and calculate the value instead.
