@@ -19,7 +19,7 @@ This will return the later of the two dates passed to it.
 
 This will return an Integer representing the day of the week a particular date is.  The number is zero based at Monday regardless of the Org's locale.
 
-###ß# weekdaysBetween
+#### weekdaysBetween
 	Integer weekdaysBetween(Date d1, Date d2)
 	
 This will return the number of weekdays between two dates.  This doesn't use the normal looping approach, it attempts to be more efficient and calculate the value instead.
